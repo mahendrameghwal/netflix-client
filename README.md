@@ -24,7 +24,7 @@ Netflix Clone is a full-stack web application built using the MERN (MongoDB, Exp
 - User authentication using JSON Web Tokens (JWT)
 - Responsive design for desktop and mobile devices
 
-## Demo
+## Demo 
 
 Check out the live demo  [here](https://your-demo-url.com).
 
@@ -45,12 +45,12 @@ Check out the live demo  [here](https://your-demo-url.com).
 
 ## Tech Stack
 
-- Frontend: React.js
-- Backend: Node.js, Express.js
-- Database: MongoDB
-- API Integration: TMDB API
-- State Management: React Hooks
-- Authentication: JSON Web Tokens (JWT)
+- Frontend: React.js.
+- Backend: Node.js, Express.js.
+- Database: MongoDB.
+- API Integration: TMDB API.
+- State Management: React Hooks.
+- Authentication: JSON Web Tokens (JWT).
 
 
 
