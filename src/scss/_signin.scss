@@ -1,0 +1,81 @@
+.signin {
+  .section-content {
+    display: none;
+  }
+  .signin-container {
+    color: $white;
+    background-color: $Transparent;
+    width: 440px;
+    max-width: 50%;
+    position: absolute;
+    top: 55%;
+    z-index: 11;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    .inputs-container {
+      width: 90%;
+      margin: 0 auto;
+      padding: 20px 0;
+      input {            
+        outline: none;
+        border: none;
+        @include fonts(1.1rem, 400);
+        width: 100%;
+        padding: 10px 6px;
+        margin: 15px 0;
+        background-color: $darkgrey;
+        color: $white;
+      }
+      .passwords{
+        position: relative;
+      }
+      .showhideicon{
+        position: absolute;
+        margin-top: 28px;
+        right: 30px;
+        cursor: pointer;
+      }
+
+      .submit-btn {
+        width: 100%;
+        padding: 12px 0;
+        @include fonts(1rem, 500);
+      }
+      .err{
+        color: #eb8703;
+        @include fonts(0.9rem, 300);
+        margin-top: -30px;
+      }
+    }
+  }
+  .signupbtn {
+    padding: 0;
+    text-decoration: underline;
+    color: $footertext;
+    @include fonts(1rem, 500);
+    p{
+      padding: 0 30px;
+    }
+  }
+  .googlebtn{
+    padding: 0;
+    text-decoration: underline;
+    color: $footertext;
+    @include fonts(1rem, 500);
+    p{
+      padding: 0 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .signin {
+    .signin-container {
+      width: 400px;
+      max-width: 95%;
+      position: absolute;
+      margin-top: 50px;
+      top: 40%;
+    }
+  }
+}
