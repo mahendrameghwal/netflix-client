@@ -1,6 +1,5 @@
 # Netflix Clone
 
-![Netflix Clone Logo](/path/to/logo.png)
 
 Netflix Clone is a full-stack web application built using the MERN (MongoDB, Express, React, Node.js) stack. It offers a platform for users to browse and view movies using the TMDB API.
 
