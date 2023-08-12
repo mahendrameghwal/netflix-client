@@ -26,7 +26,7 @@ Netflix Clone is a full-stack web application built using the MERN (MongoDB, Exp
 
 ## Demo
 
-Check out the live demo of Netflix Clone [here](https://your-demo-url.com).
+Check out the live demo  [here](https://your-demo-url.com).
 
 ## Screenshots
 
