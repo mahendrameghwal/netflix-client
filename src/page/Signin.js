@@ -12,7 +12,7 @@ const Signin = () => {
   //for password show and hide
   const [showpassword, setshowpassword] = useState();
   const [token, settoken]= useState(null)
-  const [IsTypePassword, setIsTypePassword] = useState(true);
+
   const [ErrorMessage, setErrorMessage] = useState("");
   const [user, setUser] = useState({
     email: "",
@@ -42,7 +42,7 @@ const Signin = () => {
     try {
       const resp = await axios.post("https://netflix-tqvq.onrender.com/login",user);
       if(resp.data.success){
-        console.log(resp.data);
+       
         const Usertoken  = localStorage.setItem("usertoken",resp.data.token);
         settoken(Usertoken)
        

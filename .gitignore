@@ -8,7 +8,9 @@
 # testing
 /coverage
 firebase.js
-Seceret.js
+
+secrets.js
+*.secret
 # production
 /build
 

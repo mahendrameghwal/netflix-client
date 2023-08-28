@@ -1,6 +1,7 @@
 import axios, { AxiosError } from "axios";
 import React, { useState, useEffect } from "react";
 import Rows from "./Rows";
+import Seceret from "../Seceret";
 
 const HomeContent = ({datas}) => {
 
@@ -13,7 +14,7 @@ const HomeContent = ({datas}) => {
   const [upcomingData, setupcomingData] = useState([]);
   const [errormsg, seterrormsg] = useState(null);
 
-  const API_KEY = "b0a995e6f30e543c9851f36efe29711a";
+  const API_KEY = Seceret.API_KEY;
   const BASE_URL = "https://api.themoviedb.org";
   const Popularurl = `${BASE_URL}/3/movie/popular?api_key=${API_KEY}&language=en-US&page=1`;
   const NowplayingUrl = `${BASE_URL}/3/movie/now_playing?api_key=${API_KEY}&language=en-US&page=1`;

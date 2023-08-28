@@ -29,13 +29,7 @@ const MoviesDetails = () => {
   const GetVideosurl = `${Seceret.BASE_URL}/3/movie/${id}/videos?api_key=${Seceret&&Seceret.API_KEY}&language=en-US`;
 
 
-  const item = {
-    hidden: { y: 20, opacity: 0 },
-    visible: {
-      y: 0,
-      opacity: 1
-    }
-  }
+  
 
   const GetDetails = async () => {
     await axios

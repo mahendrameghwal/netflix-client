@@ -9,7 +9,7 @@ import {  useNavigate } from 'react-router-dom';
 const Home = () => {
 const navigate = useNavigate()
 const token = localStorage.getItem("usertoken");
-console.log(token);
+
 
 useEffect(()=>{
   token &&  navigate("/main")

@@ -1,21 +1,13 @@
 import React, { useState } from "react";
 import 'rodal/lib/rodal.css';
-import Rodal from 'rodal';
+
 import ReactPlayer from 'react-player/lazy'
 
 // Lazy load the YouTube player
 
 
 const OfficialVideosElement = ({ data }) => {
-  const [visible, setVisible] = useState(false);
-
-  const show = () => {
-    setVisible(true);
-  };
-
-  const hide = () => {
-    setVisible(false);
-  };
+ 
 
 
 
