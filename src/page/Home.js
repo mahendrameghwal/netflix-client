@@ -1,11 +1,19 @@
-import React , {useEffect} from 'react' ;
 
+
+import { useEffect } from 'react';
 import { Section1 , Section2  , FAQ, } from '../components/Mainsection';
-import { Navigate } from 'react-router-dom';
+import {  useNavigate } from 'react-router-dom';
+
 
 
 const Home = () => {
+const navigate = useNavigate()
+const token = localStorage.getItem("usertoken");
+console.log(token);
 
+useEffect(()=>{
+  token &&  navigate("/main")
+},[token])
  
 
   return (
